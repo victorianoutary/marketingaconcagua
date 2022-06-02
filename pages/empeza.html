@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../images/Logo.jpg.png" />
+    <title>Aconcagua</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <!--HEADER-->
+  <header class="header">
+    <img class="header__logo" src="../images/Logo.jpg.png" alt="Logo" />
+    <h1 class="header__titulo">Aconcagua</h1>
+    <nav>
+      <ul class="header__links">
+        <li class="header__link">
+          <a href="./proyectos.html">Marketing digital</a>
+        </li>
+        <li class="header__link">
+          <a href="./trabajanos.html">Nosotros</a>
+        </li>
+        <li class="header__link">
+          <a href="./empeza.html">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!--FIN HEADER-->
+  <body>
+    <section class="contactanos">
+      <h1 class="contactanos__titulo">Contactanos</h1>
+      <p class="contactanos__texto">
+        Completá tus datos y muy pronto nos comunicaremos con vos.
+      </p>
+
+      <form class="contactanos__form" action="./index.js" method="get">
+        <ul>
+          <li>
+            <label for="nombre" class="contactanos__clientes">Nombre:</label>
+            <input type="text" name="nombre" />
+          </li>
+          <li>
+            <label for="apellido" class="contactanos__clientes"
+              >Apellido:</label
+            >
+            <input type="text" name="apellido" />
+          </li>
+          <li>
+            <label for="telefono" class="contactanos__clientes">Teléfono</label>
+            <input type="text" name="telefono" />
+          </li>
+          <li>
+            <label for="mail" class="contactanos__clientes">Mail:</label>
+            <input type="text" name="mail" />
+          </li>
+          <h2 class="contactanos__subtitulo">
+            Qué tipo de emprendimiento tenés?
+          </h2>
+          <ol>
+            <li>
+              <input type="checkbox" id="e1" name="e1" value="gastronomico" />
+              <label for="e1" class="contactanos__clientes">Gastronómico</label>
+            </li>
+            <li>
+              <input type="checkbox" id="e2" name="e2" value="Indumentaria" />
+              <label for="e2" class="contactanos__clientes">Indumentaria</label>
+            </li>
+            <li>
+              <input
+                type="checkbox"
+                id="e3"
+                name="e3"
+                value="Electrodomesticos"
+              />
+              <label for="e3" class="contactanos__clientes"
+                >Electrodomesticos</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="e4" name="e4" value="otro" />
+              <label for="e4" class="contactanos__clientes">otro</label>
+              <textarea name="e4" id="e4" cols="30" rows="10"></textarea>
+            </li>
+          </ol>
+
+          <input type="submit" value="Enviar" />
+        </ul>
+      </form>
+    </section>
+    <section class="menuprincipal">
+      <a href="../index.html"
+        ><img
+          class="menuprincipal__logo"
+          src="../images/Logo.jpg.png"
+          alt="Home"
+        />
+        <span class="menuprincipal__texto">Página principal</span>
+      </a>
+    </section>
+    <!--FOOTER-->
+    <footer>
+      <section class="footer">
+        <ul class="footer__enlaces">
+          <li>
+            <a href="http://www.instagram.com">Seguinos en instagram</a>
+          </li>
+          <li>
+            <a href="http://www.gmail.com">Envianos un e-mail</a>
+          </li>
+          <li>
+            <a href="https://api.whatsapp.com/send?phone=2478514392"
+              >Comunicate por whatsapp</a
+            >
+          </li>
+        </ul>
+      </section>
+    </footer>
+    <!--FIN DEL FOOTER-->
+  </body>
+</html>
